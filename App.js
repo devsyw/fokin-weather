@@ -39,7 +39,7 @@ export default class extends React.Component {
   componentDidMount() {
     this.getLocation();
   }
-
+ 
   render() {
     const { isLoading } = this.state;
 
